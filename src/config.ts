@@ -67,6 +67,21 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:github',
       url: 'https://github.com/sasamuku',
     },
+    {
+      name: 'Qiita',
+      icon: 'qiita',
+      url: 'https://qiita.com/sasamuku',
+    },
+    {
+      name: 'Zenn',
+      icon: 'zenn',
+      url: 'https://zenn.dev/sasamuku',
+    },
+    {
+      name: 'Hatena Blog',
+      icon: 'hatenablog',
+      url: 'https://sasamuku.hatenablog.com/',
+    },
   ],
 }
 
