@@ -4,6 +4,7 @@ enum I18nKey {
   search = 'search',
   resume = 'resume',
   instructions = 'instructions',
+  behavior = 'behavior',
 
   tags = 'tags',
   categories = 'categories',

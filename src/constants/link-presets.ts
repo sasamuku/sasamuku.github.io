@@ -15,6 +15,10 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     name: i18n(I18nKey.resume),
     url: '/resume/',
   },
+  [LinkPreset.Behavior]: {
+    name: i18n(I18nKey.behavior),
+    url: '/behavior/',
+  },
   [LinkPreset.Instructions]: {
     name: i18n(I18nKey.instructions),
     url: '/instructions/',
