@@ -19,3 +19,10 @@ I'm currently working on a database visualization tool.
 ## Skills
 
 ![My Skills](https://skillicons.dev/icons?i=ruby,rails,typescript,go,postgres,elasticsearch,aws,gcp,terraform,docker,kubernetes,datadog&perline=15)
+
+## About me
+
+- [職務経歴書](/resume/)
+- [取扱説明書](/instructions/)
+- [好む振る舞い](/behavior/)
+

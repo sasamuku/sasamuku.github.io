@@ -41,8 +41,6 @@ export const navBarConfig: NavBarConfig = {
   links: [
     LinkPreset.Home,
     LinkPreset.Resume,
-    LinkPreset.Instructions,
-    LinkPreset.Behavior,
     LinkPreset.Archive,
     {
       name: 'Blog',
