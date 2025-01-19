@@ -1,7 +1,7 @@
 # 職務経歴書
 
 <div style="text-align: right;">
-最終更新日: 2024/12/28
+最終更新日: 2025/01/19
 </div>
 
 ## sasamuku | Ryota Sasazawa
@@ -309,3 +309,4 @@
 |2023/06/02|[RubyKaigi 2023参加レポート - ZOZO TECH BLOG](https://techblog.zozo.com/entry/rubykaigi2023) (共著)|
 |2024/10/30|[Kaigi on Rails 2024 協賛・参加レポート](https://tech.route06.co.jp/entry/2024/10/30/163841)|
 |2024/12/13|[Rails で挑むイベントソーシングと補償トランザクション: ローコードプラットフォームでの事例](https://tech.route06.co.jp/entry/2024/12/13/123547)|
+|2025/01/16|[Ruby パーサ Prism を活用して便利 Gem を作成してみた](https://tech.route06.co.jp/entry/2025/01/16/142231)|
