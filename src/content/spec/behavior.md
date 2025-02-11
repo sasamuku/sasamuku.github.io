@@ -12,7 +12,7 @@ ref: https://mh4gf.dev/behavior
 
 ### 考え方・動き方
 
-* 価値を思考の出発点にする
+* 価値があるか？を思考の出発点にする
 * やり直しがきく決断は素早くする
   * [One-way and Two-way Door Decisions](https://www.inc.com/jeff-haden/amazon-founder-jeff-bezos-this-is-how-successful-people-make-such-smart-decisions.html)
 * ないよりマシ精神でアウトプットする
@@ -51,11 +51,18 @@ ref: https://mh4gf.dev/behavior
 
 ### ドキュメンテーション
 
-* TBD
+* ADR で意思決定の根拠を追跡可能にする
+  * [Architecture decision records overview](https://cloud.google.com/architecture/architecture-decision-records)
+* ワーキングアグリーメントでチームの期待値を明文化する
+  * [Team Working Agreement Canvas](https://www.scruminc.com/team-working-agreement-canvas/)
 
 ### 技術選定・意思決定
 
-* TBD
+* 事業のフェーズやトレードオフを網羅的に考慮して技術選定する
+  * 問いを整理してから技術選定する
+  * クイックに PoC を行い不確実性を減らす
+  * リスクに応じて選定にかける時間を制限する
+  * [技術選定/アーキテクチャ設計で後悔しないためのガイドライン](https://qiita.com/hirokidaichi/items/a746062917595619720b)
 
 ### コミット・プルリクエスト
 
@@ -82,8 +89,10 @@ ref: https://mh4gf.dev/behavior
   * テストが含まれていること
     * [レビューの仕方](https://speakerdeck.com/yosuke_furukawa/rebiyufalseshi-fang)
 
-### インシデント対応
+### SREing
 
-* 何よりも止血を優先する
+* SREing を実践する
+  * [SRE の責務](https://scrapbox.io/sasamuku/SRE_%E3%81%AE%E8%B2%AC%E5%8B%99)
 * ポストモーテムを行う
   * [ポストモーテムを理解する](https://qiita.com/an_sony/items/0565ad980f9097c76d11)
+* SLI/SLO を運用する
