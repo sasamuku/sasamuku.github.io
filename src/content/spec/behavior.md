@@ -1,10 +1,10 @@
 # 好む振る舞い
 
 <div style="text-align: right;">
-最終更新日: 2025/02/04
+最終更新日: 2025/03/01
 </div>
 
-この資料は、笹沢が「自身が働く上で良しとする振る舞い」を言語化しまとめています。<br>他の方に強制するものではなく、私と働くイメージをしやすくする用途を想定しています。
+この資料は「自身が働く上で良しとする振る舞い」を言語化しまとめています。<br>他の方に強制するものではなく、私と働くイメージをしやすくする用途を想定しています。
 
 ref: https://mh4gf.dev/behavior
 
@@ -12,7 +12,8 @@ ref: https://mh4gf.dev/behavior
 
 ### 考え方・動き方
 
-* 価値があるか？を思考の出発点にする
+* とにかくやる、辻褄は後で合わせる
+  * [30点で打席に立つ](https://speakerdeck.com/konifar/30dian-deda-xi-nili-tu)
 * やり直しがきく決断は素早くする
   * [One-way and Two-way Door Decisions](https://www.inc.com/jeff-haden/amazon-founder-jeff-bezos-this-is-how-successful-people-make-such-smart-decisions.html)
 * ないよりマシ精神でアウトプットする
