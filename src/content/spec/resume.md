@@ -1,7 +1,7 @@
 # 職務経歴書
 
 <div style="text-align: right;">
-最終更新日: 2025/01/19
+最終更新日: 2025/03/23
 </div>
 
 ## sasamuku | Ryota Sasazawa
@@ -25,11 +25,11 @@
 
 ## 職務経歴
 
-### 株式会社ROUTE06 | 2024/08 - 現在 : 新規サービス開発
+### 株式会社ROUTE06 | 2024/08 - 現在 : 新規事業開発
 
 #### 概要
 
-新規プロダクトにフルスタックエンジニアとして従事。ビジネス戦略の方向性を見据えつつ、アーキテクチャ設計から実装までを一貫して担当し、プロダクトのゼロイチ立ち上げに取り組んでいる。
+新規事業開発にフルスタックエンジニアとして従事。ビジネス戦略の方向性を見据えつつ、アーキテクチャ設計から実装までを一貫して担当し、プロダクトのゼロイチ立ち上げに取り組んでいる。2025年1月に [Liam ERD](https://liambx.com/) をリリース。
 
 #### 環境
 
@@ -37,6 +37,7 @@
 - API スキーマ: GraphQL
 - フロントエンド: Next.js
 - バックエンド: Ruby on Rails (7.2)
+- DB: Supabase, Amazon Aurora PostgreSQL
 - 構成管理: Terraform
 - 監視: OpenTelemetry, Sentry
 - CI/CD: GitHub Actions
@@ -216,9 +217,8 @@
   - 直近で最も触れている言語
   - Rails での開発がメイン
 
-- TypeScript: △
+- TypeScript: ◯
   - 直近で最も触れている
-  - 習得中
 
 - Go: ○
   - 業務や個人開発での利用経験あり
@@ -292,7 +292,7 @@
 
 ### 過去の登壇資料
 
-- [Cloud Run から GKE Autopilot へ、FAANS における Kubernetes 移行の背景とは](https://speakerdeck.com/sasamuku/cloud-run-kara-gke-autopilot-he-faans-niokeru-kubernetes-yi-xing-nobei-jing-toha)
+- https://speakerdeck.com/sasamuku
 
 ### 受賞歴
 
