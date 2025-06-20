@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'sasamuku',
-  subtitle: 'Profile Site',
+  title: 'Ryota Sasazawa (sasamuku)',
+  subtitle: 'Software Engineer Profile',
   lang: 'ja',
   themeColor: {
     hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -52,7 +52,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'sasamuku',
+  name: 'Ryota Sasazawa (sasamuku)',
   bio: 'Software Engineer',
   links: [
     {

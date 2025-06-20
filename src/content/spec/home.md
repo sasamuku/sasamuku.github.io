@@ -1,6 +1,6 @@
 # Hey There! 👋
 
-I'm [sasamuku](https://github.com/sasamuku) - I’m a software engineer specializing in full-stack development, cloud infrastructure, and SRE. I build scalable systems, improve site reliability, and contribute to open-source, striving to deliver user-focused solutions.
+I'm **Ryota Sasazawa** ([sasamuku](https://github.com/sasamuku)) - I'm a software engineer specializing in full-stack development, cloud infrastructure, and SRE. I build scalable systems, improve site reliability, and contribute to open-source, striving to deliver user-focused solutions.
 
 ## Projects
 
