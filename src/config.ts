@@ -67,6 +67,16 @@ export const profileConfig: ProfileConfig = {
       url: 'https://github.com/sasamuku',
     },
     {
+      name: 'Hatena Blog',
+      icon: 'hatenablog',
+      url: 'https://sasamuku.hatenablog.com/',
+    },
+    {
+      name: 'note',
+      icon: 'note',
+      url: 'https://note.com/sasamuku',
+    },
+    {
       name: 'Qiita',
       icon: 'qiita',
       url: 'https://qiita.com/sasamuku',
@@ -75,11 +85,6 @@ export const profileConfig: ProfileConfig = {
       name: 'Zenn',
       icon: 'zenn',
       url: 'https://zenn.dev/sasamuku',
-    },
-    {
-      name: 'Hatena Blog',
-      icon: 'hatenablog',
-      url: 'https://sasamuku.hatenablog.com/',
     },
   ],
 }
