@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Ryota Sasazawa (sasamuku)',
+  title: 'Ryota Sasazawa',
   subtitle: 'Software Engineer Profile',
   lang: 'ja',
   themeColor: {
@@ -51,40 +51,18 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Ryota Sasazawa (sasamuku)',
+  name: 'Ryota Sasazawa',
   bio: 'Software Engineer',
   links: [
     {
       name: 'Twitter',
-      icon: 'fa6-brands:x-twitter',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
+      icon: 'fa6-brands:x-twitter',
       url: 'https://x.com/sasamuku',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/sasamuku',
-    },
-    {
-      name: 'Hatena Blog',
-      icon: 'hatenablog',
-      url: 'https://sasamuku.hatenablog.com/',
-    },
-    {
-      name: 'note',
-      icon: 'note',
-      url: 'https://note.com/sasamuku',
-    },
-    {
-      name: 'Qiita',
-      icon: 'qiita',
-      url: 'https://qiita.com/sasamuku',
-    },
-    {
-      name: 'Zenn',
-      icon: 'zenn',
-      url: 'https://zenn.dev/sasamuku',
     },
   ],
 }
