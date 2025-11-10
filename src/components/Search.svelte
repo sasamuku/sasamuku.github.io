@@ -4,8 +4,10 @@ import { i18n } from '@i18n/translation'
 import Icon from '@iconify/svelte'
 import { url } from '@utils/url-utils.ts'
 import { onMount } from 'svelte'
-const keywordDesktop = ''
-const keywordMobile = ''
+// biome-ignore lint/style/useConst: Svelte bind:value requires let
+let keywordDesktop = ''
+// biome-ignore lint/style/useConst: Svelte bind:value requires let
+let keywordMobile = ''
 let result = []
 const fakeResult = [
   {
