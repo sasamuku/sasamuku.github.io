@@ -8,11 +8,11 @@
 
 |||
 |--|--|
+|GitHub|<https://github.com/sasamuku>|
+|X|<https://twitter.com/sasamuku>|
 |Blog|<https://sasamuku.hatenablog.com/>|
 |note|<https://note.com/sasamuku/>|
-|GitHub|<https://github.com/sasamuku>|
 |Qiita|<https://qiita.com/sasamuku>|
-|X|<https://twitter.com/sasamuku>|
 |||
 
 こちらも併せてご覧ください。
@@ -22,154 +22,143 @@
 
 ## 職務要約
 
-2019年、新卒で KDDI 株式会社に入社。AWS やプライベートクラウドを利用した監視システムの構築に携わる。2021年4月、より生活に身近なプロダクトに携わりたいと考え、株式会社 ZOZO に SRE として参画。複数プロダクト横断の SRE として、インフラ構築、SLO 策定、アラート対応や運用改善など、幅広い業務を担当。その後、バックエンドチームで Ruby on Rails でのアプリケーション開発に従事。2024年8月より株式会社 ROUTE06 にソフトウェアエンジニアとして参画。プロダクトを成功に導くエンジニアを目指して職務横断的にフルスタックな貢献をしている。
+React/Next.js を軸としたフロントエンド開発から、Ruby on Rails・TypeScript によるバックエンド開発、AWS・GCP を利用したインフラ/監視設計まで一気通貫で担うフルスタックエンジニアです。
+
+SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上げなど、事業が長期的に成長するために必要な文化・仕組み作りに関する実績と知見があります。
+
+直近はスタートアップにてゼロイチフェーズの事業に参画し、LangChain による AI エージェントの実装や Supabase を活用したマルチテナントアプリケーションの開発を通じ、事業成長を支えるプロダクトエンジニアとして貢献しています。
 
 ## 職務経歴
 
-### 株式会社ROUTE06 | 2025/11 - 現在 : AI 要件定義サービスの開発
+### 株式会社ROUTE06
+
+|期間|ロール|
+|--|--|
+|2024年8月 - 現在|Software Engineer|
 
 #### 概要
 
-AI 要件定義サービス [Acsim](https://ai.acsim.app/) の開発に従事。
+データベースビジュアライゼーションツール [Liam ERD](https://liambx.com/) および AI 要件定義サービス [Acsim](https://ai.acsim.app/) の開発に従事。フロントエンド、バックエンド、インフラ、監視、CI/CD など幅広い分野でフルスタックな貢献。
 
-#### 環境
+#### 主要な成果
 
-- フロントエンド: React
-- バックエンド: Hono
-- DB: PostgreSQL
-- 実行基盤: Amazon ECS
+- **Liam ERD の開発** (2024年8月 - 2025年10月)
+  - 複数 DB 間で一貫性を保つアーキテクチャの設計と実装 ref: [技術ブログ](https://tech.route06.co.jp/entry/2024/12/13/123547)
+  - Vercel と Supabase を活用したプレビュー環境の構築
+  - LangChain/LangGraph による AI エージェント機能の実装
+  - Working Agreement の策定やポストモーテム文化の導入
+
+- **Acsim の開発** (2025年11月 - 現在)
+  - comming soon
+
+#### 技術スタック
+
+- フロントエンド: React, Next.js, TypeScript
+- バックエンド: Hono, Node.js
+- DB: PostgreSQL, Supabase
+- AI/ML: LangChain, LangGraph
+- インフラ: AWS (ECS), Vercel
 - 構成管理: Terraform
 - 監視: Sentry
 - CI/CD: GitHub Actions
 
-### 株式会社ROUTE06 | 2024/08 - 2025/10 : データベースビジュアライゼーションツールの開発
+### 株式会社ZOZO
+
+|期間|ロール|
+|--|--|
+|2022年10月 - 2024年7月|Backend Engineer|
+|2021年4月 - 2022年10月|SRE|
 
 #### 概要
 
-データベースビジュアライゼーションツール [Liam ERD](https://liambx.com/) の開発に従事。エンジニアリングの幅広い経験を活かし、フロントエンド、バックエンド、インフラ、監視、CI/CD など幅広い分野での貢献を行った。
+コーディネートサービス [WEAR](https://wear.jp/) とB向けアプリ [FAANS](https://corp.zozo.com/news/20220802-zozomofaans/) の SRE およびバックエンド開発に従事。インフラ構築から API 開発、信頼性向上まで幅広く担当。
 
-#### 環境
+#### 主要な成果
 
-- フロントエンド: Next.js
-- DB: Supabase
-- AI エージェントフレームワーク: LangChain, LangGraph
-- 実行基盤: Vercel
-- 監視: Sentry
-- CI/CD: GitHub Actions
+- **WEAR バックエンド開発** (2022年10月 - 2024年7月)
+  - Ruby on Rails での API 設計・実装
+  - RSpec によるテストカバレッジ向上
+  - SRE の経験を活かした信頼性・開発者体験向上チームの立ち上げ
+  - パフォーマンス改善およびシステム最適化
 
-### 株式会社ZOZO | 2022/10 - 2024/07 : バックエンド開発
+- **FAANS Embedded SRE** (2021年6月 - 2022年9月)
+  - GCP 上でのインフラ初期設計から構築、運用まで一貫して担当 ref: [技術ブログ](https://techblog.zozo.com/entry/sre-work-for-cloudrun)
+  - Cloud Run から GKE Autopilot へのリプレイスにおけるプロジェクトマネジメント ref: [技術ブログ](https://techblog.zozo.com/entry/faans-replacement-to-gke-autopilot)
+  - Kubernetes ベースのコンテナ基盤設計・構築
+  - Argo CD による GitOps の導入 ref: [技術ブログ](https://techblog.zozo.com/entry/faans-replacement-to-gke-autopilot)
 
-#### 概要
+- **WEAR SRE** (2021年4月 - 2022年9月)
+  - AWS および Fastly を活用したインフラ管理
+  - Datadog による監視設計・構築
+  - SLI/SLO の策定と組織横断での信頼性向上活動
+  - ミドルウェア EOL 対応とシステム更新
 
-[WEAR](https://wear.jp/) のバックエンド開発に従事。機能実装やパフォーマンス改善に取り組む。SRE の経験を活かし信頼性や開発者体験向上を責務とする新規チームを立ち上げ。
-
-#### 環境
+#### 技術スタック
 
 - インフラ: AWS, GCP, Fastly
-- 実行基盤: EKS on Fargate
+- 実行基盤: EKS on Fargate, Cloud Run, GKE Autopilot
 - Webサーバ: nginx
-- Appサーバ: Ruby on Rails
-- 検索システム: Elasticsearch
-- ワークフロー基盤: Digdag
+- アプリケーション: Ruby on Rails, Node.js, Go
+- DB: Cloud SQL, Firestore
+- 検索: Elasticsearch
+- ワークフロー: Digdag, Argo Workflows
 - 構成管理: Terraform, CloudFormation
 - 監視: Datadog, Sentry
 - CI/CD: GitHub Actions, CircleCI
 
-#### 職務内容
+### KDDI株式会社
 
-- OpenAPI でのスキーマ駆動開発
-- Ruby on Rails での API 設計・実装
-- RSpec でのテスト実装
-- パフォーマンス改善、開発者体験の改善 等
-
-### 株式会社ZOZO | 2021/06 - 2022/09 : 新規サービスの SRE
+|期間|ロール|
+|--|--|
+|2019年4月 - 2021年3月|インフラエンジニア|
 
 #### 概要
 
-[FAANS](https://corp.zozo.com/news/20220802-zozomofaans/) の Embedded SRE として参画。インフラの初期設計から監視まで安定稼働に必要な全ての責任に応えた。その後、DB やコンテナ実行基盤のリプレイスでプロジェクトマネジメントと移行作業の指揮を担う。
+コネクティッドカー向け通信プラットフォームの監視システム構築に従事。手作業に頼ったレガシーな監視運用を、Splunk を活用した自動解析やダッシュボードによる可視化へと刷新。
 
-#### 環境
+#### 主要な成果
 
-- インフラ: GCP
-- 実行基盤: Cloud Run, GKE Autopilot
-- 静的サイト: Firebase Hosting
-- アプリケーション: Go
-- DB: Firestore, Cloud SQL
-- 構成管理: Terraform
+- AWS 上での監視基盤の設計・構築
+- Splunk によるログ解析の自動化とダッシュボード可視化
+- CloudFormation および Ansible による構成管理の導入
+- CodePipeline を活用した CI/CD パイプラインの構築
+- Python を用いた運用自動化ツールの開発
 
-#### 職務内容
-
-- リプレイス案件のプロジェクトマネジメント
-- GCP でのインフラ設計・構築
-- GitHub Actions での CI/CD 整備
-- Kubernetes でのコンテナ基盤設計・構築
-- Argo CD による GitOps 設計
-
-### 株式会社ZOZO | 2021/04 - 2022/09 : 既存サービスの SRE
-
-#### 概要
-
-コーディネートサービス [WEAR](https://wear.jp/) の SRE として参画。インフラ管理、CI/CD、監視の構築など幅広い業務を行う。さらに SLI/SLO 策定に携わり、組織を巻き込んだ信頼性向上に寄与する。
-
-#### 環境
-
-- インフラ: AWS, Fastly
-- 実行基盤: ECS on Fargate
-- Webサーバ: nginx
-- Appサーバ: Ruby on Rails, Node.js
-- 構成管理: Terraform, CloudFormation
-- 監視: Datadog
-- CI/CD: GitHub Actions, CircleCI
-
-#### 職務内容
-
-- AWS でのインフラ設計・構築
-- Datadog での監視設計
-- ミドルウェア EOL 対応
-- SLI/SLO 導入・運用
-
-### KDDI株式会社 | 2019/04 - 2021/03: 通信プラットフォームを支える監視システム
-
-#### 概要
-
-コネクティッドカー向け通信プラットフォームの監視システム構築に従事。手作業に頼ったレガシーな監視運用から、Splunk を用いた自動解析、ダッシュボードによる可視化などを行う。
-
-#### 環境
+#### 技術スタック
 
 - インフラ: AWS
 - 実行基盤: EC2
-- 監視基盤: Splunk
+- 監視: Splunk
 - 構成管理: Ansible, CloudFormation
-- ツール作成: Python
+- CI/CD: CodePipeline
+- スクリプト: Python
 
-#### 職務内容
+### 株式会社アンチパターン (副業)
 
-- AWS でのインフラ設計・構築
-- CloudFormation、Ansible による構成管理
-- CodePipeline による CI/CD 導入
-- ログ解析用サーチ文 (SPL) の作成
-
-### 株式会社アンチパターン (副業) | 2022/09 - 2023/12: インフラ構築や監視設計のリード
+|期間|ロール|
+|--|--|
+|2022年9月 - 2023年12月|SRE|
 
 #### 概要
 
-[SaaSus Platform](https://saasus.io/) に業務委託で SRE ポジションで参画。CloudWatch から New Relic への監視基盤移行、Go アプリケーションに APM を導入するなど信頼性・可視化の文脈で貢献。
+[SaaSus Platform](https://saasus.io/) に業務委託で参画。CloudWatch から New Relic への監視基盤移行を主導し、信頼性と可視性の向上に貢献。
 
-#### 環境
+#### 主要な成果
+
+- CDKTF を活用した New Relic 監視基盤の構築
+- Go アプリケーションへの APM 導入
+- AWS CDK によるインフラ構築とコード管理
+- アラート・ダッシュボードの整備による運用改善
+- Lambda ランタイムのバージョンアップ対応
+
+#### 技術スタック
 
 - インフラ: AWS
 - 実行基盤: ECS on Fargate
-- Appサーバ: Go
+- アプリケーション: Go
 - 構成管理: AWS CDK, CDKTF
 - 監視: New Relic
 - CI/CD: GitHub Actions
-
-#### 職務内容
-
-- CDKTF での New Relic の監視構築
-- AWS CDK でのインフラ構築
-- アラートやダッシュボードの整備
-- Lambda ランタイムのバージョンアップ
 
 ## スキル
 
