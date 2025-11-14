@@ -28,6 +28,18 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 
 直近はスタートアップにてゼロイチフェーズの事業に参画し、LangChain による AI エージェントの実装や Supabase を活用したマルチテナントアプリケーションの開発を通じ、事業成長を支えるプロダクトエンジニアとして貢献しています。
 
+## スキル
+
+- **プログラミング言語**: Ruby, TypeScript, Go, Python
+- **フレームワーク**: Ruby on Rails, React, Next.js
+- **クラウド**: AWS (ECS, EKS, Fargate, Lambda, CloudFormation, Route53, S3, CloudWatch), GCP (Cloud Run, GKE, Firestore, Cloud SQL)
+- **コンテナ・オーケストレーション**: Docker, Kubernetes, Argo CD, Argo Workflows
+- **IaC**: Terraform, CloudFormation, AWS CDK, CDKTF
+- **監視**: Datadog, Sentry, New Relic, Splunk
+- **CI/CD**: GitHub Actions, CircleCI, CodePipeline
+- **データベース**: PostgreSQL, SQL Server, Firestore, Supabase
+- **その他**: Elasticsearch, Fastly, LangChain, LangGraph, Expo
+
 ## 職務経歴
 
 ### 株式会社ROUTE06
@@ -160,76 +172,6 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 - 監視: New Relic
 - CI/CD: GitHub Actions
 
-## スキル
-
-```
-◎: 得意
-◯: できる
-△: 習得中
-```
-
-### クラウド
-
-- AWS : ◎
-  - 最も得意とするクラウドであり下記サービスは豊富な経験を持つ
-  - ECS / EKS / Fargate  / Lambda / CloudFormation / Route53 / S3 / CloudWatch / CodePipeline / CloudFront / SES
-
-- GCP : ◎
-  - 直近で最も利用頻度が高く下記サービス豊富な経験を持つ
-  - Cloud Run / GKE / GCS / Firestore / Cloud Tasks / Cloud Pub/Sub
-
-### 監視
-
-- Datadog : ◎
-  - 日々利用しておりAPMやLogsなど複雑な構成も可能
-
-- Newrelic : ○
-  - 副業で利用しておりCDKTFによる構築経験を持つ
-
-### IaC
-
-- CloudFormation : ◎
-  - AWSでは最も経験が多い
-
-- AWS CDK, CDKTF : ○
-  - 直近で最も利用頻度が高い
-
-- Terraform : ◎
-  - 利用頻度が高く豊富な経験を持つ
-
-### コンテナ技術
-
-- Docker : ◎
-  - 日々利用しており軽量化やマルチステージビルドによる改善経験も持つ
-
-- K8s : ◎
-  - 0からの設計/構築の経験を持つ
-  - エコシステムを活用した構築も得意
-
-### CI/CD
-
-- GitHub Actions : ◎
-  - 最も利用頻度の高いCI/CDツール
-  - アクションの自作経験もある
-
-- CircleCI : △
-  - 直近ではあまり使用していない
-
-### 言語
-
-- Ruby : ◎
-  - 直近で最も触れている言語
-  - Rails での開発がメイン
-
-- TypeScript: ◯
-  - 直近で最も触れている
-
-- Go: ○
-  - 業務や個人開発での利用経験あり
-
-- Python : ◯
-  - 前職でシステムのテスト目的で利用していた
-
 ## 資格
 
 |取得年月   |名前                                      |
@@ -286,13 +228,14 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
   - <https://github.com/ota42y/openapi_parser/pull/164>
 - K8s 周辺ツールのエラー文言修正
   - <https://github.com/h3poteto/kube-job/pull/185>
-- Embulk Plugin のバグ修正 (自リポジトリに fork)
-  - <https://github.com/sasamuku/embulk-filter-expand_json/pull/1>
-- 自作：AWS サポートの通知を行う GitHub Actions
-  - <https://github.com/sasamuku/slack_notice_aws_support>
-- 自作：RSpec 向け tree コマンド
+- RSpec 向け tree コマンド
   - <https://sasamuku.hatenablog.com/entry/2024/03/17/130424>
   - <https://github.com/sasamuku/rspec_tree>
+
+### iOSアプリ個人開発
+
+- [掃除管理アプリ - キレイイネ](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AD%E3%83%AC%E3%82%A4%E3%82%A4%E3%83%8D/id6747911828)
+- [疲労管理アプリ - calmo](https://apps.apple.com/jp/app/%E7%96%B2%E5%8A%B4%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-calmo/id6753157576)
 
 ### 過去の登壇資料
 
