@@ -61,7 +61,7 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
   - Working Agreement の策定やポストモーテム文化の導入
 
 - **Acsim の開発** (2025年11月 - 現在)
-  - comming soon
+  - in progress
 
 #### 技術スタック
 
