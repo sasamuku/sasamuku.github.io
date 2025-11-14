@@ -1,14 +1,15 @@
 # 職務経歴書
 
 <div style="text-align: right;">
-最終更新日: 2025/03/23
+最終更新日: 2025/11/14
 </div>
 
-## sasamuku | Ryota Sasazawa
+## Ryota Sasazawa
 
 |||
 |--|--|
 |Blog|<https://sasamuku.hatenablog.com/>|
+|note|<https://note.com/sasamuku/>|
 |GitHub|<https://github.com/sasamuku>|
 |Qiita|<https://qiita.com/sasamuku>|
 |X|<https://twitter.com/sasamuku>|
@@ -25,21 +26,35 @@
 
 ## 職務経歴
 
-### 株式会社ROUTE06 | 2024/08 - 現在 : 新規事業開発
+### 株式会社ROUTE06 | 2025/11 - 現在 : AI 要件定義サービスの開発
 
 #### 概要
 
-新規事業開発にフルスタックエンジニアとして従事。ビジネス戦略の方向性を見据えつつ、アーキテクチャ設計から実装までを一貫して担当し、プロダクトのゼロイチ立ち上げに取り組んでいる。2025年1月に [Liam ERD](https://liambx.com/) をリリース。
+AI 要件定義サービス [Acsim](https://ai.acsim.app/) の開発に従事。
 
 #### 環境
 
-- 実行基盤: ECS on Fargate, Vercel
-- API スキーマ: GraphQL
-- フロントエンド: Next.js
-- バックエンド: Ruby on Rails (7.2)
-- DB: Supabase, Amazon Aurora PostgreSQL
+- フロントエンド: React
+- バックエンド: Hono
+- DB: PostgreSQL
+- 実行基盤: Amazon ECS
 - 構成管理: Terraform
-- 監視: OpenTelemetry, Sentry
+- 監視: Sentry
+- CI/CD: GitHub Actions
+
+### 株式会社ROUTE06 | 2024/08 - 2025/10 : データベースビジュアライゼーションツールの開発
+
+#### 概要
+
+データベースビジュアライゼーションツール [Liam ERD](https://liambx.com/) の開発に従事。エンジニアリングの幅広い経験を活かし、フロントエンド、バックエンド、インフラ、監視、CI/CD など幅広い分野での貢献を行った。
+
+#### 環境
+
+- フロントエンド: Next.js
+- DB: Supabase
+- AI エージェントフレームワーク: LangChain, LangGraph
+- 実行基盤: Vercel
+- 監視: Sentry
 - CI/CD: GitHub Actions
 
 ### 株式会社ZOZO | 2022/10 - 2024/07 : バックエンド開発
