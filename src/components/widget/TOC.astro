@@ -18,19 +18,19 @@ const className = Astro.props.class
 
 const removeTailingHash = (text: string) => {
   const lastIndexOfHash = text.lastIndexOf('#')
-  if (lastIndexOfHash != text.length - 1) {
+  if (lastIndexOfHash !== text.length - 1) {
     return text
   }
 
   return text.substring(0, lastIndexOfHash)
 }
 
-const heading1Count = 1
+let heading1Count = 1
 
 const maxLevel = siteConfig.toc.depth
 ---
 <table-of-contents class:list={[className, "group"]}>
-    {headings.filter((heading) => heading.depth < minDepth + maxLevel).map((heading) =>
+    {headings.filter((heading) => heading.depth > minDepth && heading.depth < minDepth + maxLevel).map((heading) =>
             <a href={`#${heading.slug}`} class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2
     ">
