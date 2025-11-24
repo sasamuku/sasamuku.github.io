@@ -4,8 +4,6 @@
 最終更新日: 2025/11/14
 </div>
 
-## Ryota Sasazawa
-
 |||
 |--|--|
 |GitHub|<https://github.com/sasamuku>|
@@ -235,7 +233,7 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 ### iOSアプリ個人開発
 
 - [掃除管理アプリ - キレイイネ](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AD%E3%83%AC%E3%82%A4%E3%82%A4%E3%83%8D/id6747911828)
-- [疲労管理アプリ - calmo](https://apps.apple.com/jp/app/%E7%96%B2%E5%8A%B4%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-calmo/id6753157576)
+- [疲労記録アプリ - calmo](https://apps.apple.com/jp/app/%E7%96%B2%E5%8A%B4%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-calmo/id6753157576)
 
 ### 過去の登壇資料
 
