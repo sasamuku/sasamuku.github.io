@@ -1,16 +1,16 @@
 import { siteConfig } from '@/config'
 import { getSortedPosts } from '@utils/content-utils'
 import type { APIRoute } from 'astro'
-import fs from 'node:fs'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
 
-const specDir = fileURLToPath(new URL('../../content/spec', import.meta.url))
+const specFiles = import.meta.glob<string>('../content/spec/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+})
 
-function readSpecFile(filename: string): string | null {
-  const filePath = path.join(specDir, filename)
-  if (!fs.existsSync(filePath)) return null
-  return fs.readFileSync(filePath, 'utf-8')
+function getSpecContent(filename: string): string | null {
+  const key = `../content/spec/${filename}`
+  return specFiles[key] ?? null
 }
 
 export const GET: APIRoute = async ({ site }) => {
@@ -32,7 +32,7 @@ export const GET: APIRoute = async ({ site }) => {
   ]
 
   for (const page of specPages) {
-    const content = readSpecFile(page.file)
+    const content = getSpecContent(page.file)
     if (content) {
       sections.push('', '---', '', `## ${page.title}`, '', content)
     }
