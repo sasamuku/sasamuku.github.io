@@ -28,15 +28,17 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 
 ## スキル
 
-- **プログラミング言語**: Ruby, TypeScript, Go, Python
-- **フレームワーク**: Ruby on Rails, React, Next.js
-- **クラウド**: AWS (ECS, EKS, Fargate, Lambda, CloudFormation, Route53, S3, CloudWatch), GCP (Cloud Run, GKE, Firestore, Cloud SQL)
-- **コンテナ・オーケストレーション**: Docker, Kubernetes, Argo CD, Argo Workflows
-- **IaC**: Terraform, CloudFormation, AWS CDK, CDKTF
-- **監視**: Datadog, Sentry, New Relic, Splunk
-- **CI/CD**: GitHub Actions, CircleCI, CodePipeline
-- **データベース**: PostgreSQL, SQL Server, Firestore, Supabase
-- **その他**: Elasticsearch, Fastly, LangChain, LangGraph, Expo
+|カテゴリ|技術|
+|--|--|
+|プログラミング言語|Ruby, TypeScript, Go, Python|
+|フレームワーク|Ruby on Rails, React, Next.js|
+|クラウド|AWS (ECS, EKS, Fargate, Lambda, RDS), GCP (Cloud Run, GKE, Cloud SQL)|
+|コンテナ・オーケストレーション|Docker, Kubernetes, Argo CD, Argo Workflows|
+|IaC|Terraform, CloudFormation, AWS CDK, CDKTF|
+|監視|Datadog, Sentry, New Relic, Splunk|
+|CI/CD|GitHub Actions, CircleCI, CodePipeline|
+|データベース|PostgreSQL, SQL Server, Firestore, Supabase|
+|その他|Elasticsearch, Fastly, LangChain, LangGraph, Expo|
 
 ## 職務経歴
 
@@ -63,14 +65,16 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 
 #### 技術スタック
 
-- フロントエンド: React, Next.js, TypeScript
-- バックエンド: Hono, Node.js
-- DB: PostgreSQL, Supabase
-- AI/ML: LangChain, LangGraph
-- インフラ: AWS (ECS), Vercel
-- 構成管理: Terraform
-- 監視: Sentry
-- CI/CD: GitHub Actions
+|カテゴリ|技術|
+|--|--|
+|フロントエンド|React, Next.js, TypeScript|
+|バックエンド|Hono, Node.js|
+|DB|PostgreSQL, Supabase|
+|AI/ML|LangChain, LangGraph|
+|インフラ|AWS (ECS), Vercel|
+|構成管理|Terraform|
+|監視|Sentry|
+|CI/CD|GitHub Actions|
 
 ### 株式会社ZOZO
 
@@ -105,16 +109,18 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 
 #### 技術スタック
 
-- インフラ: AWS, GCP, Fastly
-- 実行基盤: EKS on Fargate, Cloud Run, GKE Autopilot
-- Webサーバ: nginx
-- アプリケーション: Ruby on Rails, Node.js, Go
-- DB: Cloud SQL, Firestore
-- 検索: Elasticsearch
-- ワークフロー: Digdag, Argo Workflows
-- 構成管理: Terraform, CloudFormation
-- 監視: Datadog, Sentry
-- CI/CD: GitHub Actions, CircleCI
+|カテゴリ|技術|
+|--|--|
+|インフラ|AWS, GCP, Fastly|
+|実行基盤|EKS on Fargate, Cloud Run, GKE Autopilot|
+|Webサーバ|nginx|
+|アプリケーション|Ruby on Rails, Node.js, Go|
+|DB|Cloud SQL, Firestore|
+|検索|Elasticsearch|
+|ワークフロー|Digdag, Argo Workflows|
+|構成管理|Terraform, CloudFormation|
+|監視|Datadog, Sentry|
+|CI/CD|GitHub Actions, CircleCI|
 
 ### KDDI株式会社
 
@@ -136,12 +142,14 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 
 #### 技術スタック
 
-- インフラ: AWS
-- 実行基盤: EC2
-- 監視: Splunk
-- 構成管理: Ansible, CloudFormation
-- CI/CD: CodePipeline
-- スクリプト: Python
+|カテゴリ|技術|
+|--|--|
+|インフラ|AWS|
+|実行基盤|EC2|
+|監視|Splunk|
+|構成管理|Ansible, CloudFormation|
+|CI/CD|CodePipeline|
+|スクリプト|Python|
 
 ### 株式会社アンチパターン (副業)
 
@@ -163,12 +171,14 @@ SREing を尊重しており SLI/SLO 導入や品質向上チームの立ち上�
 
 #### 技術スタック
 
-- インフラ: AWS
-- 実行基盤: ECS on Fargate
-- アプリケーション: Go
-- 構成管理: AWS CDK, CDKTF
-- 監視: New Relic
-- CI/CD: GitHub Actions
+|カテゴリ|技術|
+|--|--|
+|インフラ|AWS|
+|実行基盤|ECS on Fargate|
+|アプリケーション|Go|
+|構成管理|AWS CDK, CDKTF|
+|監視|New Relic|
+|CI/CD|GitHub Actions|
 
 ## 資格
 
