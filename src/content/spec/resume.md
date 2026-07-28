@@ -1,7 +1,7 @@
 # 職務経歴書
 
 <div style="text-align: right;">
-最終更新日: 2026/03/08
+最終更新日: 2026/07/28
 </div>
 
 |||
@@ -229,3 +229,5 @@ DB ビジュアル化ツール [Liam ERD](https://liambx.com/) の立ち上げ�
 |2025/01/16|[Ruby パーサ Prism を活用して便利 Gem を作成してみた](https://tech.route06.co.jp/entry/2025/01/16/142231)|
 |2026/01/20|[アラートの目的から考える Sentry の運用ルールづくり](https://ai.acsim.app/articles/sentry-operation-introduction)|
 |2026/03/03|[RLSを実戦投入するための設計判断](https://ai.acsim.app/articles/rls-production-design-decisions)|
+|2026/03/25|[GitHub Release を使って開発者体験のよいリリースフローを作る](https://ai.acsim.app/articles/release-flow-github-release-driven)|
+|2026/04/28|[人間レビューはもう不要？ AI と人間のレビューの線引きを決めた話](https://ai.acsim.app/articles/introducing-self-merge-policy)|
