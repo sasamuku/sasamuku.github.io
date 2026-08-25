@@ -14,9 +14,13 @@ import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-di
 import remarkMath from "remark-math";
 import remarkSectionize from "remark-sectionize";
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
+import { ArticleCardComponent } from "./src/plugins/rehype-component-article-card.mjs";
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
+import { ProductCardComponent } from "./src/plugins/rehype-component-product-card.mjs";
+import { TimelineComponent } from "./src/plugins/rehype-component-timeline.mjs";
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
+import { remarkFetchOgp } from "./src/plugins/remark-fetch-ogp.mjs";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
@@ -68,6 +72,7 @@ export default defineConfig({
       remarkExcerpt,
       remarkGithubAdmonitionsToDirectives,
       remarkDirective,
+      remarkFetchOgp,
       remarkSectionize,
       parseDirectiveNode,
     ],
@@ -79,6 +84,9 @@ export default defineConfig({
         {
           components: {
             github: GithubCardComponent,
+            timeline: TimelineComponent,
+            product: ProductCardComponent,
+            article: ArticleCardComponent,
             note: (x, y) => AdmonitionComponent(x, y, "note"),
             tip: (x, y) => AdmonitionComponent(x, y, "tip"),
             important: (x, y) => AdmonitionComponent(x, y, "important"),
